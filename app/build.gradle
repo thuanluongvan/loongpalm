@@ -37,6 +37,7 @@ static def getGLVersionCode(String version) {
 android {
     namespace project.properties['app.application_id']
     compileSdk 34
+    ndkVersion "28.0.13004108"
 
     defaultConfig {
         minSdk 24

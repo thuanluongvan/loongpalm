@@ -12,8 +12,8 @@ int main(void) {
 
     ClearBackground(RAYWHITE);
 
-    DrawText("Congrats! You created your first hello world!", 190, 200, 20,
-             LIGHTGRAY);
+    DrawCircle(190, 200, 20,
+             RED);
 
     EndDrawing();
   }
